@@ -1,0 +1,33 @@
+.modal{
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: -100%;
+	height: 0;
+	width: 0;
+	display: flex;
+	transition: all .5s ease .15s;
+}
+.overlay{
+	background: rgba(0,0,0,0.8);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	position: absolute;
+	left: 0;
+}
+.close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: red;
+}
+.modal-content{
+	width: 320px;
+	height: auto;
+	margin: auto;
+	padding: 20px;
+	background: #fff;
+	position: relative;
+	z-index: 99999;
+}
